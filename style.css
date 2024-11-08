@@ -42,7 +42,7 @@ body {
         max-width: 500px;
         width: 100%;
 }
-select, textarea {
+select{
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
@@ -54,6 +54,18 @@ select, textarea {
     font-weight: 900;
     background-color: #ffffff50; 
   }
+  textarea{
+    width: 95%;    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ffffff50;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: "Charmonman", cursive;
+    font-size: 20px; 
+    font-weight: 900;
+    background-color: #ffffff50; 
+  }
+
   [type="date"] {
     width: 95%;
     padding: 10px;
@@ -66,3 +78,10 @@ select, textarea {
     font-weight: 900;
     background-color: #ffffff50; 
   }
+  .radio-group {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  
