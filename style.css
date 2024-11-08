@@ -1,0 +1,56 @@
+h2 {
+    font-family: "Charm", cursive;
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #670707;
+  }
+  label{
+    margin-bottom: 10px;
+    font-family: "Charm", cursive;
+    font-size: 1.25em;
+  }
+  input[type="text"] {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid rgba(38, 255, 0, 0.247);
+    border-radius: 5px;
+    background-color: #ffffff50;
+    box-shadow: 0 0 60px #ffffff50; 
+    width: calc(100% - 24px);   
+    font-family: "Charmonman", cursive;
+    font-size: 20px; 
+    font-weight: 900;
+}
+body {
+    font-family: Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.6;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #000000;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(38, 255, 0, 0.247);
+  }
+.form-container {
+        padding: 30px;
+        background-color: #000000;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(38, 255, 0, 0.247);
+        max-width: 500px;
+        width: 100%;
+}
+select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ffffff50;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: "Charmonman", cursive;
+    font-size: 20px; 
+    font-weight: 900;
+    background-color: #ffffff50; 
+  }

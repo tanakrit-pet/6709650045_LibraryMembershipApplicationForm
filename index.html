@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Noto+Serif+Thai:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Charmonman:wght@400;700&family=Noto+Serif+Thai:wght@100..900&display=swap" rel="stylesheet">
+    <title>ฟอร์มสมัครสมาชิกห้องสมุด</title>
+    
+</head>
+<body>
+    <div class="form-container">
+        <h2>ฟอร์มสมัครสมาชิกห้องสมุด</h2>
+    <form action="/submit-form" method="post">
+        <label  for="fullNameTh">ชื่อ – นามสกุล (ภาษาไทย)</label>
+        <input type="text" id="fullNameTh" name="fullNameTh" required>
+
+        <label for="fullNameEn">ชื่อ – นามสกุล (ภาษาอังกฤษ)</label>
+        <input type="text" id="fullNameEn" name="fullNameEn" required>
+
+        <label for="gender">เพศ</label>
+        <select id="gender" name="gender" required>
+          <option value="male">ชาย</option>
+          <option value="female">หญิง</option>
+          <option value="other">อื่น ๆ</option>
+        </select>
+
+        
+
+
+
+
+
+        </div>
+      </form>
+</body>
+</html>
