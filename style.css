@@ -10,7 +10,7 @@ h2 {
     font-family: "Charm", cursive;
     font-size: 1.25em;
   }
-  input[type="text"] {
+  input[type="text"],[type="email"] {
     margin-bottom: 20px;
     padding: 10px;
     border: 1px solid rgba(38, 255, 0, 0.247);
@@ -44,6 +44,18 @@ body {
 }
 select, textarea {
     width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ffffff50;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: "Charmonman", cursive;
+    font-size: 20px; 
+    font-weight: 900;
+    background-color: #ffffff50; 
+  }
+  [type="date"] {
+    width: 95%;
     padding: 10px;
     margin-bottom: 15px;
     border: 1px solid #ffffff50;
